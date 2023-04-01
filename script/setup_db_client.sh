@@ -3,7 +3,6 @@ PORT=5432
 USER=app
 DB=prisma-local
 PASSWORD=mypaSsWd
-PRIVILEGES="CREATE, DELETE, INSERT, SELECT, UPDATE"
 
 psql "postgresql://root:password@$HOST:$PORT/$DB" <<-EOSQL
 	CREATE USER $USER WITH PASSWORD '$PASSWORD';
