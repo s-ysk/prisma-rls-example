@@ -1,0 +1,5 @@
+node_modules
+.vscode
+
+docker/pgadmin
+docker/postgres
